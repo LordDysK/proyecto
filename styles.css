@@ -91,3 +91,9 @@ a{
     font-weight: bold;
     color: black;
 }
+.carousel-item img {
+    width: 600px;
+}
+.carousel-item img {
+    margin-left: -100px;
+}
