@@ -182,10 +182,9 @@ a{
 
 }
 .carousel-inner{
- height: 400px;
- padding-top: 15px;
-}
-.imagenesre4 {
-    width: 30%;
-    height: 50%;
-  }
+ height: 80%;
+ width: 30% ;
+ 
+};
+
+
