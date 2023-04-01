@@ -181,7 +181,7 @@ a{
     margin: 0 auto;
 
 }
-.carousel-inner{
+#CarruselRe4 {
  height: 80%;
  width: 50% ;
  
@@ -211,5 +211,8 @@ p2 {
     display: block;
   }
     
-
+  .oculto {
+    display: none;
+  }
+  
 
