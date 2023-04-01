@@ -183,8 +183,33 @@ a{
 }
 .carousel-inner{
  height: 80%;
- width: 30% ;
+ width: 50% ;
  
 };
+
+p2 {
+    text-align: justify;
+  }
+  .product-description {
+    border: 2px solid #000;
+    padding: 20px;
+  }
+  
+  .btn-see-more {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .more-info {
+    display: none;
+  }
+  
+  .btn-see-more:hover + .more-info {
+    display: block;
+  }
+    
 
 
