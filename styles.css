@@ -91,20 +91,10 @@ a{
     font-weight: bold;
     color: black;
 }
-.carousel-item img {
-    width: 600px;
-}
-.carousel-item img {
-    margin-left: -100px;
-}
 
-.img-carousel {
-  max-width: 50%;
-  max-height: 50%;
-  margin: 0 auto;
-  display: block;
-}
 
 .more-info d-none p {
     text-align: justify;
   }
+
+
