@@ -181,11 +181,16 @@ a{
     margin: 0 auto;
 
 }
+
 #CarruselRe4 {
  height: 80%;
- width: 60% ;
+ width: 70% ;
 
 };
+
+.container3 {
+    margin: auto;
+}
 
 p2 {
     text-align: justify;
@@ -217,5 +222,9 @@ p2 {
   
 .container2 {
     width: 720px;
+    margin: auto;
+}
+.DescripcionRe4 {
+    text-align: center;
     margin: auto;
 }
