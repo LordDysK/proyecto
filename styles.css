@@ -215,4 +215,7 @@ p2 {
     display: none;
   }
   
-
+.container2 {
+    width: 720px;
+    margin: auto;
+}
