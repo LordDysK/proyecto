@@ -246,7 +246,10 @@ p2 {
     margin: auto;
 }
 
+#img_cont4_l{
     margin: auto;
+    width: 100%;
+    height: 100%;
 
 }
 #img_cont4_r{
