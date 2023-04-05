@@ -28,6 +28,7 @@ body{
     float: left;
     background-color: #540452;
     color: rgb(240, 10, 10);
+    margin: auto;
 }
 .contenedor2{
     width: 33,3%;
@@ -35,6 +36,7 @@ body{
     float: left;
     background-color: #FFDF01;
     color: white;
+    margin: auto;
 }
 .contenedor3{
     width: 33,3%;
@@ -42,6 +44,7 @@ body{
     float: left;
     background-color: #ff0188;
     color: white;
+    margin: auto;
 }
 
 .textoparrafo{
@@ -221,10 +224,27 @@ p2 {
   }
   
 .container2 {
-    width: 720px;
+    width: 840px;
     margin: auto;
 }
 .DescripcionRe4 {
     text-align: center;
     margin: auto;
 }
+
+.contenedo4 img{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+@media (max-width: 768px) {
+    .carousel-wrapper {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+
+    .carousel-inner {
+      height: 200px;
+    }
+  }
+  
