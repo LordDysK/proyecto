@@ -5,6 +5,10 @@ body{
     text-align: center;
     font-family: sans-serif;
 }
+.full-bleed{
+    box-shadow: 0 0 0 100vmax;
+    clip-path: inset(0 -100vmax);
+}
 
 .center{
     margin: auto;
@@ -182,6 +186,7 @@ a{
     width: auto;
     height: auto;
     margin: 0 auto;
+    
 
 }
 
@@ -224,18 +229,31 @@ p2 {
   }
   
 .container2 {
-    width: 840px;
+    width: 95%;
     margin: auto;
+    padding: 0;
+        
+    ;
+}
+.container_home{
+    margin-left: 15%;
+    margin-right: 5%;;
+    padding: 0;
+    
 }
 .DescripcionRe4 {
     text-align: center;
     margin: auto;
 }
 
-.contenedo4 img{
     margin: auto;
-    width: 50%;
-    height: 50%;
+
+}
+#img_cont4_r{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
 }
 @media (max-width: 768px) {
     .carousel-wrapper {
@@ -247,4 +265,8 @@ p2 {
       height: 200px;
     }
   }
-  
+.contenedor4{
+    display: flex;
+    border: 5px transparent;
+}
+
