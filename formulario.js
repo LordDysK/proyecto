@@ -1,3 +1,6 @@
+const apiKey = 'db029b7eabe74dd0992ad7688e47d693';
+const apiUrl = ''
+
 const formulario = document.getElementById('formulario_log');
 const inputs = document.querySelectorAll('#formulario_log inputs')
 
@@ -20,3 +23,4 @@ inputs.forEach((input) => {
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
 })
+
